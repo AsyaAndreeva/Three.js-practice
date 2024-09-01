@@ -1,0 +1,14 @@
+{
+  "name": "three.js_practice",
+  "version": "1.0.0",
+  "description": "A personal repository dedicated to learning and practicing my skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.168.0"
+  }
+}

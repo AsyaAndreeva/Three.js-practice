@@ -1,0 +1,13 @@
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main{
+  position: absolute;
+}
+
+#height{
+  height: 400vh;
+}
