@@ -13,7 +13,7 @@ import * as THREE from "three";
 export function Model(props) {
   const { nodes, materials } = useGLTF('../models/scene.glb')
   
-  const texture = useTexture(props.item.image);
+  const texture = useTexture(props.item.img);
 
   useEffect(() => {
     Object.entries(materials).map((material) => {

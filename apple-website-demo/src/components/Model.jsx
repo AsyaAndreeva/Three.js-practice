@@ -12,7 +12,7 @@ const Model = () => {
   const [model, setModel] = useState({
     title: "iPhone 15 Pro in Natural Titanium",
     color: ["#8f8a81", "#ffe7b9", "#6f6fc64"],
-    image: yellowImg,
+    img: yellowImg,
   });
 
   // Camera controls for the model view
