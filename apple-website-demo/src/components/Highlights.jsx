@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { rightImg, watchImg } from "../utils"
-import VideoCarousel from "./videoCarousel"
+import VideoCarousel from "./VideoCarousel.jsx"
 
 const Highlights = () => {
 
