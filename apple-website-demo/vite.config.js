@@ -7,10 +7,7 @@ export default defineConfig({
   plugins: [react()],
 
   build: {
-    sourcemap: true,
-    rollupOptions: {
-      external: ['three', '@react-three/fiber', '@react-three/drei'],
-    },
+    sourcemap: true
   },
   optimizeDeps: {
     include: ['@react-three/fiber', 'three', 'gsap', '@react-three/drei'],
