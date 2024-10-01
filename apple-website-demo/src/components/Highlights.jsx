@@ -1,5 +1,5 @@
 import { useGSAP } from "@gsap/react"
-import { gsap } from "gsap";
+import gsap from './node_modules/gsap/dist/gsap.js';
 import { rightImg, watchImg } from "../utils"
 import VideoCarousel from "./VideoCarousel.jsx"
 

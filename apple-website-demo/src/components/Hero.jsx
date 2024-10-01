@@ -1,4 +1,4 @@
-import { gsap } from "gsap";
+import gsap from './node_modules/gsap/dist/gsap.js';
 import {useGSAP} from '@gsap/react';
 import { useEffect, useState } from 'react';
 import {heroVideo, smallHeroVideo} from '../utils';

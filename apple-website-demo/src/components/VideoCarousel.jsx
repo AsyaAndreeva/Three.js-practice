@@ -1,4 +1,4 @@
-import { gsap } from "gsap";
+import gsap from './node_modules/gsap/dist/gsap.js';
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
