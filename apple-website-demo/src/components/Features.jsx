@@ -3,8 +3,7 @@ import React, { useRef } from 'react'
 import {animateWithGsap} from '../utils/animations';
 import { explore1Img, explore2Img, exploreVideo } from '../utils';
 import { ScrollTrigger } from 'gsap/all';
-import gsap from './node_modules/gsap/dist/gsap.js';
-
+import { gsap } from "gsap";
 
 gsap.registerPlugin(ScrollTrigger);
 
