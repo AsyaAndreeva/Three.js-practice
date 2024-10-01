@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     sourcemap: true,
     rollupOptions: {
-      external: ['three', '@react-three/fiber', 'gsap', '@react-three/drei'],
+      external: ['three', '@react-three/fiber', '@react-three/drei'],
     },
   },
   optimizeDeps: {
